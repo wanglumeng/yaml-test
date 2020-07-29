@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dg/work/test/yaml/readyaml.cpp
+map
+-
+iostream
+-
+fstream
+-
+yaml-cpp/yaml.h
+/home/dg/work/test/yaml/yaml-cpp/yaml.h
+

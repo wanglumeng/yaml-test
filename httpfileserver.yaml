@@ -1,0 +1,13 @@
+tmpfs:
+  mountpoint: /data/tmp
+  sizem: 1042
+httpfileserver:
+  -   name: libra
+      path: /home/deepglint/AppData/libraT/works/libra/scene/
+      auth: true
+      gzip: 
+            - .dat  
+  -   name: clip
+      path: /home/deepglint/AppData/libraT/tmp/clip
+      auth: false
+      gzip: null

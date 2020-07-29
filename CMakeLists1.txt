@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.2)
+
+project(parse)
+
+add_definitions(-std=c++11)
+
+
+include_directories(include)
+set(SRCS parse.cpp)
+add_executable(parse ${SRCS})
+
+target_link_libraries(parse ${CMAKE_HOME_DIRECTORY}/libs/libyaml-cpp.so)

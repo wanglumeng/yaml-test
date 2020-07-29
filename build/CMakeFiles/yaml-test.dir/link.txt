@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic   -o yaml-test /usr/local/lib/libyaml-cpp.a 
