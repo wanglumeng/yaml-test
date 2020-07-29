@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named node
+# Target rules for targets named read
 
 # Build rule for target.
-node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 node
-.PHONY : node
+read: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 read
+.PHONY : read
 
 # fast build rule for target.
-node/fast:
-	$(MAKE) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/build
-.PHONY : node/fast
+read/fast:
+	$(MAKE) -f CMakeFiles/read.dir/build.make CMakeFiles/read.dir/build
+.PHONY : read/fast
 
 readyaml.o: readyaml.cpp.o
 
@@ -129,7 +129,7 @@ readyaml.o: readyaml.cpp.o
 
 # target to build an object file
 readyaml.cpp.o:
-	$(MAKE) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/readyaml.cpp.o
+	$(MAKE) -f CMakeFiles/read.dir/build.make CMakeFiles/read.dir/readyaml.cpp.o
 .PHONY : readyaml.cpp.o
 
 readyaml.i: readyaml.cpp.i
@@ -138,7 +138,7 @@ readyaml.i: readyaml.cpp.i
 
 # target to preprocess a source file
 readyaml.cpp.i:
-	$(MAKE) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/readyaml.cpp.i
+	$(MAKE) -f CMakeFiles/read.dir/build.make CMakeFiles/read.dir/readyaml.cpp.i
 .PHONY : readyaml.cpp.i
 
 readyaml.s: readyaml.cpp.s
@@ -147,7 +147,7 @@ readyaml.s: readyaml.cpp.s
 
 # target to generate assembly for a file
 readyaml.cpp.s:
-	$(MAKE) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/readyaml.cpp.s
+	$(MAKE) -f CMakeFiles/read.dir/build.make CMakeFiles/read.dir/readyaml.cpp.s
 .PHONY : readyaml.cpp.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... node"
+	@echo "... read"
 	@echo "... edit_cache"
 	@echo "... readyaml.o"
 	@echo "... readyaml.i"

@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/dg/work/test/yaml
 CMAKE_BINARY_DIR = /home/dg/work/test/yaml/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/node.dir
+# Target rules for target CMakeFiles/read.dir
 
 # All Build rule for target.
-CMakeFiles/node.dir/all:
-	$(MAKE) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/depend
-	$(MAKE) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dg/work/test/yaml/build/CMakeFiles --progress-num=1,2 "Built target node"
-.PHONY : CMakeFiles/node.dir/all
+CMakeFiles/read.dir/all:
+	$(MAKE) -f CMakeFiles/read.dir/build.make CMakeFiles/read.dir/depend
+	$(MAKE) -f CMakeFiles/read.dir/build.make CMakeFiles/read.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dg/work/test/yaml/build/CMakeFiles --progress-num=1,2 "Built target read"
+.PHONY : CMakeFiles/read.dir/all
 
 # Include target in all.
-all: CMakeFiles/node.dir/all
+all: CMakeFiles/read.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/node.dir/rule: cmake_check_build_system
+CMakeFiles/read.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dg/work/test/yaml/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/node.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/read.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dg/work/test/yaml/build/CMakeFiles 0
-.PHONY : CMakeFiles/node.dir/rule
+.PHONY : CMakeFiles/read.dir/rule
 
 # Convenience name for target.
-node: CMakeFiles/node.dir/rule
+read: CMakeFiles/read.dir/rule
 
-.PHONY : node
-
-# clean rule for target.
-CMakeFiles/node.dir/clean:
-	$(MAKE) -f CMakeFiles/node.dir/build.make CMakeFiles/node.dir/clean
-.PHONY : CMakeFiles/node.dir/clean
+.PHONY : read
 
 # clean rule for target.
-clean: CMakeFiles/node.dir/clean
+CMakeFiles/read.dir/clean:
+	$(MAKE) -f CMakeFiles/read.dir/build.make CMakeFiles/read.dir/clean
+.PHONY : CMakeFiles/read.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/read.dir/clean
 
 .PHONY : clean
 
